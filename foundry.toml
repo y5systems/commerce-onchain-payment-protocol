@@ -1,6 +1,12 @@
 [profile.default]
+solc = "0.8.17"
 src = "contracts"
 out = "out"
-libs = ["lib"]
+libs = ["lib", "contracts/permit2"]
 
-# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+remappings = [
+    "forge-std/=contracts/permit2/lib/forge-std/src/",
+    "solmate/=contracts/permit2/lib/solmate/",
+    "ds-test/=contracts/permit2/lib/ds-test/src/",
+    "openzeppelin-contracts/=contracts/permit2/lib/openzeppelin-contracts/contracts"
+]
