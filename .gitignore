@@ -3,6 +3,3 @@
 /cache
 /out
 broadcast/
-
-# Ignore dependency libraries installed via forge
-lib/
