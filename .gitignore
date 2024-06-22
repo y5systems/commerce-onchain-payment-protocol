@@ -1,2 +1,8 @@
 .idea
-node_modules
+.env
+/cache
+/out
+broadcast/
+
+# Ignore dependency libraries installed via forge
+lib/
