@@ -15,7 +15,7 @@ import {Constants as UniswapConstants} from "@uniswap/universal-router/contracts
 import "../interfaces/IWrappedNativeCurrency.sol";
 import "../interfaces/ITransfers.sol";
 import "../utils/Sweepable.sol";
-import "../permit2/src/Permit2.sol";
+import "../permit2/Permit2.sol";
 
 // Uniswap error selectors, used to surface information when swaps fail
 // Pulled from @uniswap/universal-router/out/V3SwapRouter.sol/V3SwapRouter.json after compiling with forge
